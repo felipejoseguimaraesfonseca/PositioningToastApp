@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KOTLIN"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/javascript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVASCRIPT"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/python"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PYTHON"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/swift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIFT"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
